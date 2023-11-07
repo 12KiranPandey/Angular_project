@@ -1,0 +1,89 @@
+div h1{
+  color:black;
+  text-align: center;
+  text-transform: capitalize;
+  text-decoration: none;
+  padding: 50px;
+  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Quattrocento', serif;
+  line-height: 1.em;
+  font-size: 30px;
+}
+.main{
+  background-color:#EDEDED;
+
+}
+.main h1:hover{
+  text-decoration: underline;
+}
+
+input[type=text],input[type=email], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #fff;
+  padding: 20px;
+}
+ .send_btn {
+  font-size: 20px;
+  transition: ease-in all 0.5s;
+  background-color: #68BBE3;;
+  color: #000;
+  padding: 10px 0px;
+  width: 30%;
+  border: #68BBE3;
+  border-radius: 20px;
+  
+
+}
+
+ .send_btn:hover {
+  background-color: #FD841F;
+  transition: ease-in all 0.5s;
+  color: #fff;
+}
+
+#request *::placeholder {
+  color: rgba(0,0,0,0.8);
+  opacity: 1;
+}
+#request *::placeholder {
+  color: rgba(0,0,0,0.8);
+  opacity: 1;
+}
+label{
+  font-size: 20px;
+  font-family: 'Courier New', Courier, monospace;
+  color: rgba(0,0,0,0.5);
+  font-weight: bold;
+}
+
+#map {
+  height: 500px;
+  padding-top:20px ;
+  
+  position: relative;
+}

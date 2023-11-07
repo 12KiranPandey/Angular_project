@@ -1,0 +1,50 @@
+div h1{
+  color:black;
+  text-align: center;
+  text-transform: capitalize;
+  text-decoration: none;
+  padding: 50px;
+  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Quattrocento', serif;
+  line-height: 1.em;
+  font-size: 30px;
+}
+.main{
+  background-color:#EDEDED;
+}
+.main h1:hover{
+  text-decoration: underline;
+}
+.card{
+  margin-bottom: 20px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+h2{
+  text-align: center;
+  text-decoration: wavy;
+  font-family: 'Times New Roman', Times, serif;
+  color: rgba(0, 0, 0, 0.8);
+}
+.btn{
+  color: #fff ;
+  background-color: #4C6793;
+  padding: 8px;
+  font-size:16px;
+  font-family: 'Times New Roman', Times, serif;
+  transition: ease-in all 0.5s;
+  width: 100px;
+  margin-top: 10px;
+}
+.btn:hover{
+  
+  background-color: #FD841F;
+  transition: ease-in all 0.5s;
+  color: #fff;
+  
+}
+
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+  width: 70%;
+  margin: auto;
+}

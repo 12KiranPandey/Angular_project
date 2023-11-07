@@ -1,0 +1,16 @@
+/* You can add global styles to this file, and also import other style files */
+*{
+  padding: 0;
+  margin: 0;
+
+
+}
+:root
+{
+  --primary-color:#CF0A0A;
+  --secondary-color:#DC5F00;
+}
+body{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  height: 100vh;
+}

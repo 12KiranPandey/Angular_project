@@ -1,0 +1,25 @@
+footer{
+  background-color: rgba(0,0,0,0.8);
+  color:rgba(255,255,255,0.8);
+  position: sticky;
+  top:100%;
+  
+}
+a{
+  color:rgba(255,255,255,0.8);
+  font-size: 20px;
+}
+a:hover{
+  color:#DC5F00;
+  
+}
+.social{
+  font-size: 25px;
+  font-family: 'Crimson Text', serif;
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Quattrocento', serif;
+}
+.fas:hover{
+  color:#59CE8F;
+  font-size: 18px;
+}
